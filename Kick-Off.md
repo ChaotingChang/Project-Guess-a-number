@@ -56,6 +56,18 @@ You must turn in the git repo you used while builing your project. Remember to c
 
 <a name="schedule"></a>
 
+
+## Mentoring
+One of the TAs will be your mentor!
+Your mentor will:
+* Follow your project in general, will be the second person that knows more about the project, after you.
+* Check if you are following the tasks, your blockers, etc
+* Help/support you in specific questions.
+
+Your mentor is not meant to:
+* Know everything.
+* Be your manager. You have to be the responsible person to do the tasks!
+
 ## Schedule
 *Wednesday*
 * Choose your game.
