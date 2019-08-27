@@ -1,97 +1,58 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Build your own game!
+# Guess A Number
+*Chao-Ting Chang*
+
+*Data Analytics June 19, Barcelona & 26/06/2019*
 
 ## Content
 - [Project Description](#project-description)
-- [Ideas](#ideas)
-- [Project goals](#project-goals)
-- [Requirements](#requirements)
-- [Deliverables](#deliverables)
-- [Schedule](#schedule)
-- [Presentation](#presentation)
+- [Workflow](#workflow)
+- [Organization](#organization)
+- [Links](#links)
 
 <a name="project-description"></a>
 
 ## Project Description
-In this project, you will create your first software!
-You are tasked with creating a **game** that interacts with the user, using the functions and basic python resources you have learned during the week. Your game will be able to take an input from the user and provide an output. 
-
-You will also present your game to the class. 
-
-You can find some game ideas below.
-
-<a name="ideas"></a>
-
-## Ideas
-* Strong Random Password Generator
-* Guess The Number
-* Hangman
-* Message Encryption & Decryption
-* Mastermind
-* Tic Tac Toe
-* Blackjack
-* Soldier & Dice (Risk)
-
-<a name="project-goals"></a>
-
-## Project Goals
-* Create and manage your own git repository. 
-* Build your own code from scratch. 
-* Put into practice the basic python concepts learned during the week.
-* Get used to public presentations. 
-
-<a name="requirements"></a>
-
-## Requirements
-* You must plan your project. That is why creating a Kanban or Trello Board is mandatory.
-* You **CAN'T CODE** until you project is planned. 
-* Create a *.gitignore* file and include it in your repository. 
-* Use functions. 
-
-<a name="deliverables"></a>
-
-## Deliverables
-You must turn in the git repo you used while builing your project. Remember to commit often to avoid trouble in case you mess up (this means more than 1 commit!).
-
-<a name="schedule"></a>
+This project aims to build a small game called "Guess A Number". There are three levels, the first one is only to guess a number between 1 and 10. The second level is to guess between 1 and 50, but the computer will give you a hint. The last level is to guess a four-digitals number, where computer will tell you how many match and mis-match you have as a hint.
 
 
-## Mentoring
-One of the TAs will be your mentor!
-Your mentor will:
-* Follow your project in general, will be the second person that knows more about the project, after you.
-* Check if you are following the tasks, your blockers, etc
-* Help/support you in specific questions.
 
-Your mentor is not meant to:
-* Know everything.
-* Be your manager. You have to be the responsible person to do the tasks!
+<a name="workflow"></a>
 
-## Schedule
-*Wednesday*
-* Choose your game.
-* Plan your project.
-* Create your repository and README overview (template provided).
-* Once you finish, start coding!
+## Workflow
+Here is how I developed my project.
+1. Create a gitignore file. (I don't want to provoke Eva. ;D)
+2. Playing Process:
+    a. Computer generate a number
+    b. Ask user to guess a number
+    c. Compare the result and give a hint.
+    
+3. What I need for the playing process:
+    a. The range of the number to be guessed.
+    b. Make the computer generate a number lays in between the range
+    c. Define ow many time one is allowed to guess
+    d. Ask the user to guess a number (Think: what if the user give a number out of range? What if the user give a letter?)
+    e. Compare the result and give a hint to user.
+    
+4. In response to to the step 3:
+    a. Create two variables to establish the max and min values
+    b. Use the max and min values and random function to generate a random number and save it as a variable
+    c. Create a variables to establish how many time the player can guess
+    d. Create a function where allow user to input a number which lays inside our rule
+    e. Create a function to compare the result, use the 4c to restrict the playing time
+    
 
-*Thursday evening*
-* Start preparing the slides for your presentation. 
+<a name="organization"></a>
 
-*Friday evening*
-* Presentation!
+## Organization
 
-<a name="presentation"></a>
 
-## Presentation
-You will have 5 minutes to present your project to the class (3 minutes for the presentation and 2 minutes for Q&A). Remember that your presentation must include the slides listed below and a demo of your game:
+<a name="links"></a>
 
-* Title of the project + Student name  
-* Description of your game  
-* Challenges  
-* Process  
-* Learnings    
-* If I were to start from scratch...    
-* Improvements  
-* Highlights  
-* Demo   
+## Links
+Include the links to your repository, slides and trello. Feel free to include any other links associated to your project. 
+
+[Repository](https://github.com/ChaotingChang/Project-Week-1-Build-Your-Own-Game.git)  
+[Slides](https://slides.com/changchao-ting/guess-a-number/live)  
+[Trello](https://trello.com/invite/b/bshhoev1/6c8fb35007af95fce2898be526d1c7d6/guess-a-number)  
