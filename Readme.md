@@ -51,7 +51,6 @@ Here is how I developed my project.
 <a name="links"></a>
 
 ## Links
-Include the links to your repository, slides and trello. Feel free to include any other links associated to your project. 
 
 [Repository](https://github.com/ChaotingChang/Project-Week-1-Build-Your-Own-Game.git)  
 [Slides](https://slides.com/changchao-ting/guess-a-number/live)  
